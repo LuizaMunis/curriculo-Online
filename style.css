@@ -51,7 +51,8 @@ nav a:hover{
 /******************************************HOME*************************************************************/
 main{
     justify-items: center;
-    align-items: center
+    align-items: center;
+    
     
 }
 
@@ -87,22 +88,18 @@ section{
     padding: 2%;
 }
 
-.imgs-logos{
+
+#imgs-logos{
     display: flex;
-    gap: 5px;
+    gap: 5%;
 }
 
-.imgs-logos img{
-    width: 2rem;
-}
-
-#imgs-logos2{
-    display: flex;
-    gap: 5px;
+#imgs-logos img{
+    width: 3rem;
 }
 
 #imgs-logos2 img{
-    width: 4rem;
+    width: 2rem;
 }
 
 #container-apresentação{
@@ -128,10 +125,12 @@ hr{
     align-items: center;
     width: 100%;
     height: 100%;
-    background-color:#dba4da;
+    background-color:#9e329e;
     gap: 2%;
 }
 
 #container-redes img{
     width: 2.5rem;
 }
+
+/******************************************************Projetos******************************************************/
