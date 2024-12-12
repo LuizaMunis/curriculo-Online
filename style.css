@@ -49,49 +49,55 @@ nav a:hover{
 }
 
 /******************************************HOME*************************************************************/
+
 main{
-    justify-items: center;
+    justify-content:center ;
     align-items: center;
-    
-    
+    height: 100vh; 
+    display: flex;  
+    flex-direction: column;
 }
 
 section{
-    justify-items: center;
-    align-items: center;
-
+    width: 80%;
 }
 
-#container-home{
-    width: 80%; 
+#home{
     height: 70vh;
-    margin-top: 7rem;
-    background-color: var(--cor-principal);
+    box-shadow: 0 0 15px 2px rgba(255, 255, 255, 0.2); 
     display: flex;
-    border: 1px solid transparent; 
     color: var(--cor-text);
     font-family: 'Poppins', sans-serif;
-    box-shadow: 0 0 15px 2px rgba(255, 255, 255, 0.2); 
-
 }
 
 .titulo{
     font-weight: 400;
 }
 
-#foto{
-    display: flex;
-    clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 30% 0%);
-}
-
 #apresentação{
     padding: 2%;
 }
 
-
-#imgs-logos{
+#container-apresentação{
     display: flex;
-    gap: 5%;
+    gap:5%;
+}
+
+hr{
+    height: -15%;
+    border: 1px solid rgba(251, 224, 255, 0.2);
+}
+
+#foto{
+    width: 100rem;
+    height: 100%;
+    clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 20% 0%);
+}
+
+#foto img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 #imgs-logos img{
@@ -102,35 +108,17 @@ section{
     width: 2rem;
 }
 
-#container-apresentação{
-    display: flex;
-    gap:5%;
-}
 
-hr{
-    height: 15rem;
-    border: 1px solid rgba(251, 224, 255, 0.2);
-}
-
-/**********************************************REDES********************************************************/
+/*****************************************REDES*****************************************************/
 
 #redes-sociais{
-    width: 80%;
-    height: 10vh;
-}
-
-#container-redes{
+    height: 7%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100%;
-    background-color:#9e329e;
+    background-color: #9e329e;
     gap: 2%;
 }
 
-#container-redes img{
-    width: 2.5rem;
-}
+/****************************************PROJETOS**************************************************************/
 
-/******************************************************Projetos******************************************************/
